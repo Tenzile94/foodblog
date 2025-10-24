@@ -1,0 +1,31 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for logo icon -->
+  <circle cx="30" cy="30" r="25" fill="url(#gradient1)" stroke="#ec4899" stroke-width="2"/>
+  
+  <!-- Fork and spoon icon -->
+  <g transform="translate(15, 15)">
+    <!-- Fork -->
+    <path d="M8 2 L8 20 M6 4 L10 4 M6 6 L10 6 M6 8 L10 8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <!-- Spoon -->
+    <path d="M12 2 L12 20 M10 18 Q12 20 14 18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Whisper lines -->
+  <g transform="translate(50, 20)">
+    <path d="M0 10 Q10 5 20 10 Q30 15 40 10" stroke="#ec4899" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M5 15 Q15 10 25 15 Q35 20 45 15" stroke="#ec4899" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M10 20 Q20 15 30 20 Q40 25 50 20" stroke="#ec4899" stroke-width="2" fill="none" opacity="0.3"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="70" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937">TheTaste</text>
+  <text x="70" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ec4899">Whisperer</text>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#db2777;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
