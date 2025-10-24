@@ -4,9 +4,9 @@ import Link from 'next/link';
 import { blogPosts } from '@/data/blogData';
 
 interface BlogPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
 export default async function BlogPage({ params }: BlogPageProps) {
